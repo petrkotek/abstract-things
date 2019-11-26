@@ -38,7 +38,7 @@ API
 		// Switching via promise then/catch
 		thing.power(false)
 			.then(result => console.log('Power is now', result))
-			.catch(err => console.log('Error occurred', err);
+			.catch(err => console.log('Error occurred', err));
 
 .. js:function:: setPower(powerState)
 
@@ -57,7 +57,7 @@ API
 		// Using promise then/catch
 		thing.setPower(true)
 			.then(result => console.log('Power is now', result))
-			.catch(err => console.log('Error occurred', err);
+			.catch(err => console.log('Error occurred', err));
 
 
 .. js:function:: togglePower()
@@ -77,7 +77,7 @@ API
 		// Using promise then/catch
 		thing.togglePower()
 			.then(result => console.log('Power is now', result))
-			.catch(err => console.log('Error occurred', err);
+			.catch(err => console.log('Error occurred', err));
 
 .. js:function:: turnOn()
 
@@ -95,7 +95,7 @@ API
 		// Using promise then/catch
 		thing.turnOn()
 			.then(result => console.log('Power is now', result))
-			.catch(err => console.log('Error occurred', err);
+			.catch(err => console.log('Error occurred', err));
 
 .. js:function:: turnOff()
 
@@ -113,7 +113,7 @@ API
 		// Using promise then/catch
 		thing.turnOff()
 			.then(result => console.log('Power is now', result))
-			.catch(err => console.log('Error occurred', err);
+			.catch(err => console.log('Error occurred', err));
 
 Protected methods
 -----------------
